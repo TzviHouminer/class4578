@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: #4158d0;
+    background-image: linear-gradient(
+      90deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+  }
+  
+  .Box {
+    border: solid 1px black;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px 2px;
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+  }
+  
+  input {
+    padding: 10px;
+  }
+  #friendsTable {
+    text-align: center;
+    border: 5px lightpink solid;
+    padding: 25px;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  th{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding: 20px;
+    width: 100px;
+    background-color: palevioletred;
+  }
+  tr:nth-child(even) {
+    background-color: #B8B8B8;
+  }
+  tr:nth-child(odd) {
+    background-color: #E8E8E8;
+  }
+  td {
+    border: black 1px solid;
+    margin: 10px;
+    padding: 10px;
+  }

@@ -1,0 +1,10 @@
+var checked = document.getElementById("checkbox").checked;
+var priceQuantity =+ document.getElementById("checkbox").value;
+
+const checkboxChange = () => {
+    console.log(checked);
+    console.log(priceQuantity);
+    console.log(sum);
+    //document.getElementById("sum").innerHTML = document.getElementById("checkbox").checked ?
+    //document.getElementById("checkbox").value : 0;
+};

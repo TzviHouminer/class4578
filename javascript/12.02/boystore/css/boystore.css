@@ -1,0 +1,24 @@
+body{
+    direction: rtl;
+    text-align: center;
+}
+table {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+    border: 1px black solid;
+}
+#totalBox {
+    border: 1px black solid;
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 5px gray;
+}
+#sum {
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+}

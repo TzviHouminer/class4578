@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boys Store</title>
+    <link rel="stylesheet" href="css/boystore.css"/>
+    <script src="js/boystore.js"></script>
+</head>
+<body>
+    <h1>Boys store</h1>
+    <hr/><br/><br/>
+    <div class="box">
+        <form action="javascript:addItems()" id="itemForm">
+            <input type="text" placeholder="שם מוצר" id="pName"/><br/><br/>
+            <input type="number" placeholder="כמות" id="pQuan"/><br/><br/>
+            <input type="text" placeholder="מחיר" id="pPrice"/><br/><br/>
+            <input type="url" placeholder="קישור תמונה" id="pPhoto"/><br/><br/>
+            <input type="submit" value="add product" /><br/><br/>
+            <input type="reset" value="reset" />
+        </form>
+    </div><br/>
+    <div>
+        <table>
+            <thead>
+                <th> </th>
+                <th>תמונה</th>
+                <th>שם מוצר</th>
+                <th>כמות</th>
+                <th>מחיר יחידה</th>
+                <th>מחיר לכמות</th>
+            </thead>
+            <tbody id="productTable">
+            </tbody>
+        </table><br/>
+        <div id="totalBox">
+            סכום כולל: <span id="sum">0</span> ש"ח
+        </div>
+    </div>
+</body>
+</html>

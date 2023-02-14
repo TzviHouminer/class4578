@@ -1,0 +1,56 @@
+div{
+    border: solid 1px black;
+    width: 49%;
+    height: 700px;
+}
+
+#frame{
+    overflow: hidden;
+    background-color: black;
+    width: auto;
+    padding: 0;
+}
+
+.red{
+    float: left;
+    background: red;
+    background-image: radial-gradient(brown,transparent);
+    background-size: 5px 5px;
+    border: dotted 2px red;
+    box-shadow: 0 0 20px #111 inset, 0 0 10px red;
+    animation: 1s red infinite;
+}
+
+.blue{
+    float: left;
+    background: blue;
+    background-image: radial-gradient(rgb(1, 1, 92),transparent);
+    background-size: 5px 5px;
+    border: dotted 2px blue;
+    box-shadow: 0 0 20px #111 inset, 0 0 10px blue;
+    animation: 1s blue infinite;
+}
+
+@keyframes red{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes blue{
+    0%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.3;
+    }
+}

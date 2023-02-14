@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+table {
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+    border: black 1px solid;
+    width: 150px;
+}
+
+thead {
+    text-align: center;
+    border: 2px black solid;
+}

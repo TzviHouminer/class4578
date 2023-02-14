@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Chores</title>
+    <link rel="stylesheet" href="css/reload.css"/>
+    <script defer src="js/reload.js"></script>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <hr/><br/><br/>
+    <form action="javascript:addChore()" id="myForm">
+        <input type="text" placeholder="Enter a chore" id="newChore"><br/><br/>
+        <input type="submit" value="add chore">
+        <input type="reset" value="reset"><br/><br/>
+    </form><br/><br/>
+    <table>
+        <thead><th><h3>Chores</h3></th></thead>
+        <tbody id="choresTable"></tbody>
+    </table>
+</body>
+</html>

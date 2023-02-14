@@ -1,0 +1,62 @@
+body{
+    background-color: #f0f2f5;
+    margin: auto;
+    width: 396px;
+    height: 496px;
+    text-align: center;
+}
+
+.login{
+    background-color: white;
+    margin: 40px 0px 0px;
+    padding: 20px 0px 28px;
+    border: 20px black;
+    border-radius: 8px;
+    width: 396px;
+    box-shadow:2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%) ;
+}
+
+input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin-bottom: 10px;
+}
+
+.myinput{
+    border: 1px solid rgb(221, 223, 226);
+    border-radius: 5px;
+    padding: 14px 16px;
+}
+
+.login_button{
+    background-color: #1877f2;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+}
+
+.create_button{
+    background-color: #42b72a;
+    color: white;
+    font-size: 15px;
+    line-height: 48px;
+    padding: 0 16px;
+    margin-top: 15px;
+    width: 160px;
+    height: 48px;
+}
+}
+
+.forgot_button{
+    margin-bottom: 15px;
+}
+
+.head{
+    text-align: center;
+    font-weight: bolder;
+    color: blue;
+}

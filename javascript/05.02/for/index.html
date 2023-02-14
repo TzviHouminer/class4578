@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for loop</title>
+</head>
+<body>
+    <script>
+        /*//הדפסת סכום וממוצע מ5 מספרים מהמשתמש
+        var sum = 0
+        for (var counter = 0; counter<5; counter++){
+            var num = +prompt("enter a num");
+            sum += num;
+        }
+        alert('total is: ' + sum + ' average is: ' + sum / 5);
+        *//* // הדפסת 5 שמות בשורה אחת
+        var txt = ''
+        for (var counter=0; counter<5; counter++){
+            var userName = prompt("enter a name");
+            txt += userName + ' ';
+        }
+        console.log("the names are: " + txt);
+        */ //הצגת לוח הכפל עד 100
+        for (var row=1; row<=10; row++){
+            result = ''
+            for(var col=1; col<=10; col++){
+                result += (row*col) + '\t';
+            }
+            console.log(result)
+        }
+        </script>
+</body>
+</html>
