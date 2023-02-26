@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: -0.2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+th,td {
+    border: 1px black solid;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+select {
+    width: 170px;
+}
+
+th {
+background-color: rgb(196, 239, 136);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(142, 195, 37, 0.365);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(242, 250, 215, 0.941);
+}
+
+tr:hover {
+    background-color: yellowgreen;
+}
+
+.myButton {
+        color: black;
+        font-size: 13px;
+        line-height: 16px; 
+        padding: 10px; 
+        border-radius: 7px; 
+        font-weight: 700; 
+        text-decoration: none; 
+        font-style: normal; 
+        font-variant: normal; 
+        text-transform: none; 
+        background-color: rgb(204, 255, 191);
+        box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(204, 255, 191); 
+        display: inline-block;}
+.myButton:hover {
+        background: rgba(204, 255, 191, 0.518); }
+.myButton:active {
+        background: rgb(122, 223, 100); }

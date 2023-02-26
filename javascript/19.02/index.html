@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <script src="js/shop.js"></script>
+    <link rel="stylesheet" href="css/shop.css">
+</head>
+<body>
+    <h1>Add Product</h1>
+    <hr/><br/><br/>
+    <form action="javascript:addProduct()" id="myForm">
+        <input required type="text" id="pName" placeholder="Enter product name"/><br/><br/>
+        <input required type="number" id="pPrice" placeholder="Enter product price"/><br/><br/>
+        <select required id="pCategory">
+            <option disabled selected hidden>Choose category</option>
+            <option>Drinks</option>
+            <option>Meat</option>
+            <option>Dairy</option>
+            <option>Snacks</option>
+            <option>Basic</option>
+        </select><br/><br/>
+        <input required type="text" id="pPhoto" placeholder="Enter link to Photo"/><br/><br/>
+        <input type="submit" value="Add product" class="myButton"/>
+        <input type="reset" value="reset" class="myButton"/>
+    </form><br/><hr/>
+    <h2>My Cart</h2>
+    <table id="myTable">
+        <thead>
+            <th>Action</th>
+            <th>Product name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Picture</th>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+</body>
+</html>

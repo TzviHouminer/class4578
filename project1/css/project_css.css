@@ -1,0 +1,49 @@
+body {
+    background-image: url('../img/tile.jpg');
+    text-align: center;
+    
+}
+
+.header {
+    font-size: 70px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+#inputBox {
+    background-image: url('../img/formbg.jpg');
+    background-repeat: repeat-y;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.formRow {
+    background-color: white;
+    opacity: 0.5;
+    width: 300px;
+    border: none;
+}
+.formRow::placeholder {
+    color: black;
+    opacity: 1;
+}
+#mission {
+    font-weight: bolder;
+}
+.deadlineCommand {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    font-weight: bold
+}
+.deadlineInput, .btn {
+    width: 148px;
+}
+
+.note {
+    background-image: url(../img/notebg.png);
+    width: 200px;
+    height: 250px;
+}
+.noteContent {
+    height: 200px;
+    overflow: auto;
+}

@@ -23,7 +23,7 @@ const makeTable = () => {
 const retrieveData = () => {
     var history = JSON.parse(localStorage.getItem("lastChores"));
     if (history) {
-        chores = history
+        chores = history;
         makeTable();
     }
 };
