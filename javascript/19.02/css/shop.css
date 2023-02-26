@@ -56,7 +56,8 @@ tr:hover {
         font-variant: normal; 
         text-transform: none; 
         background-color: rgb(204, 255, 191);
-        box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(204, 255, 191); 
+        box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+        border: 2px solid rgb(204, 255, 191); 
         display: inline-block;}
 .myButton:hover {
         background: rgba(204, 255, 191, 0.518); }
