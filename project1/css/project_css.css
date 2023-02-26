@@ -1,7 +1,6 @@
 body {
     background-image: url('../img/tile.jpg');
     text-align: center;
-    
 }
 
 .header {
@@ -13,7 +12,7 @@ body {
 #inputBox {
     background-image: url('../img/formbg.jpg');
     background-repeat: repeat-y;
-    width: 80%;
+    width: 600px;
     margin-bottom: 50px;
 }
 .formRow {
@@ -44,6 +43,9 @@ body {
     height: 250px;
 }
 .noteContent {
+    direction: rtl;
     height: 200px;
+    margin-right: 6px;
+    margin-left: -13px;
     overflow: auto;
 }
