@@ -49,3 +49,9 @@ body {
     margin-left: -13px;
     overflow: auto;
 }
+#removeButton{
+    visibility: hidden;
+}
+.note:hover #removeButton{
+    visibility: visible;
+}

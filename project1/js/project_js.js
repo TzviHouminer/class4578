@@ -20,8 +20,8 @@ const printMissions = () => {
     var result = '';
     missions.map((mission) => {
         result += `
-        <div class="note d-flex flex-column px-3 pt-4 pb-2">
-            <i class="bi bi-x-square-fill align-self-end mx-3"></i>
+        <div class="note d-flex flex-column px-3 pt-4 pb-2" onmouseover="">
+            <button id="removeButton"><i class="bi bi-x-square-fill align-self-end mx-3"></i></button>
             <div class="noteContent">${mission.content}</div>
             <div class="align-self-start mt-auto">${mission.date}</div>
             <div class="justify-content-end align-self-start">${mission.time}</div>
