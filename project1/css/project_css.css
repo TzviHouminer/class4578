@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
 }
@@ -13,7 +13,7 @@ body {
     background-image: url('../img/formbg.jpg');
     background-repeat: repeat-y;
     width: 600px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .formRow {
     background-color: white;
@@ -30,7 +30,7 @@ body {
 }
 .deadlineCommand {
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 5px;
+    padding: 2px;
     font-weight: bold
 }
 .deadlineInput, .btn {
@@ -41,6 +41,7 @@ body {
     background-image: url(../img/notebg.png);
     width: 200px;
     height: 250px;
+    animation: 2s fade ;
 }
 .noteContent {
     direction: rtl;
@@ -54,4 +55,13 @@ body {
 }
 .note:hover .removeButton{
     visibility: visible;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
