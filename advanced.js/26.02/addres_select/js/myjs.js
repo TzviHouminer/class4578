@@ -23,3 +23,8 @@ const chooseStreet = (city) => {
         document.getElementById("streetListUser").innerHTML = streetsList;
     });
 };
+
+const showChosen = () => {
+    var chosen = document.getElementById("streetListUser").value;
+    console.log(chosen);
+};
