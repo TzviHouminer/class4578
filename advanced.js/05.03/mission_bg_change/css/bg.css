@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+#slider {
+    direction: rtl;
+    width: 80%;
+    appearance: none;
+    outline: black 1px solid;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
